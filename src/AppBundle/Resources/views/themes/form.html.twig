@@ -1,0 +1,16 @@
+{% extends 'SuluFormBundle:themes:dynamic.html.twig' %}
+
+{# Custom title #}
+{%- block sulu_form_text_headline_widget -%}
+    <div class="title">{{- label|raw -}}</div>
+{%- endblock sulu_form_text_headline_widget -%}
+
+{# Custom freeText #}
+{%- block sulu_form_text_freeText_widget -%}
+    <div class="free-text">{{- label|raw -}}</div>
+{%- endblock sulu_form_text_freeText_widget -%}
+
+{# Custom grid class #}
+{%- block sulu_form_row_class_name -%}
+    {{- 'grid-item ' ~ attr.width|default('full') -}}
+{%- endblock sulu_form_row_class_name -%}
