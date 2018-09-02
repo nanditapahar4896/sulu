@@ -5,7 +5,7 @@
 
     <key>form</key>
 
-    <view>AppBundle:templates:form</view>
+    <view>templates/forms/form</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>1209600</cacheLifetime>
 
