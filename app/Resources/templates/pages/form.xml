@@ -15,18 +15,31 @@
     </meta>
 
     <properties>
-        <section name="highlight">
+        <section name="messageform">
             <properties>
                 <property name="title" type="text_line" mandatory="true">
                     <meta>
-                        <title lang="en">Title</title>
-                        <title lang="de">Titel</title>
+                        <title lang="en">Form</title>
+                        <title lang="de">Formular</title>
                     </meta>
                     <params>
                         <param name="headline" value="true"/>
                     </params>
 
                     <tag name="sulu.rlp.part"/>
+                </property>
+                 <property name="formHeading" type="text_line">
+                    <meta>
+                        <title lang="en">Heading</title>
+                        <title lang="de">Überschrift</title>
+                    </meta>
+                </property>
+
+                 <property name="formSubheading" type="text_editor">
+                    <meta>
+                        <title lang="en">Subheading</title>
+                        <title lang="de">Unter-Überschrift</title>
+                    </meta>
                 </property>
 
                 <property name="url" type="resource_locator" mandatory="true">
@@ -52,5 +65,3 @@
         </property>
     </properties>
 </template>
-
-
